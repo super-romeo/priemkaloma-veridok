@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="canonical" href="https://priemkaloma.veridok.ru/price.html">
+<title>Цена — учёт приёмки лома</title>
+<meta name="description" content="Цена в месяц: приёмо-сдаточные акты, журнал учёта, остатки, касса и безналичные выплаты сдатчикам.">
+<link rel="icon" href="favicon.svg">
+<link rel="stylesheet" href="style.css">
+<script src="smoke.js" defer></script>
+<script>
+  /* Открыт экран цен — price_view через smoke.js (window.smokeTrack). */
+  document.addEventListener("DOMContentLoaded", function () { if (window.smokeTrack) window.smokeTrack("price_view"); });
+</script>
+</head>
+<body data-page="price">
+
+<header><div class="wrap">
+  <div class="logo"><a href="index.html" data-ev="click_logo_home">Приёмка лома</a></div>
+  <nav class="top"><a href="index.html#chto" data-ev="click_nav_chto">Что вы получаете</a><a href="price.html" data-ev="click_nav_cena">Цена</a><a href="index.html#primer" data-ev="click_nav_primer">Пример</a></nav>
+</div></header>
+
+<div class="wrap">
+  <div class="hero">
+    <h1>Тариф и цена</h1>
+    <p class="sub">Приёмо-сдаточные акты, журнал учёта, остатки, касса и безналичная выплата сдатчику.</p>
+  </div>
+
+  <section id="cena">
+    <div class="grid">
+      <div class="card"><b>Одна площадка</b><span>990 ₽ в месяц.</span><br><a class="btn" href="pay.html?plan=ploshchadka" data-ev="payment_click click_pay_ploshchadka">Оплатить — 990 ₽</a></div>
+      <div class="card"><b>Несколько площадок</b><span>1 400 ₽ в месяц.</span><br><a class="btn" href="pay.html?plan=set" data-ev="payment_click click_pay_set">Оплатить — 1 400 ₽</a></div>
+    </div>
+    <p class="cta-note">Сервис в подготовке · Оплата на этой странице не принимается</p>
+    <div class="actions"><a class="btn" href="index.html" data-ev="click_back">Вернуться к описанию</a></div>
+  </section>
+</div>
+
+<footer><div class="wrap">
+  <p>Оператор: ИП Гудев Роман, ИНН 615007167949 &middot; <a href="privacy.html" data-ev="click_legal_privacy">Политика обработки персональных данных</a></p>
+  <p class="muted">Учёт приёмки лома для вашего пункта. Не заменяет лицензию и обязанности пункта приёма.</p>
+</div></footer>
+
+</body>
+</html>
