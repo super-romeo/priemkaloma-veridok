@@ -8,6 +8,10 @@
 <meta name="description" content="Для пунктов приёма лома: приёмо-сдаточный акт за минуту, журнал учёта, остатки, касса и безналичная выплата сдатчику — в одном учёте.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -62,38 +66,68 @@
 </head>
 <body>
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Приёмка лома</a></div>
-  <nav class="top"><a href="#chto" data-ev="click_nav_chto">Что вы получаете</a><a href="price.html" data-ev="click_nav_cena">Цена</a><a href="#primer" data-ev="click_nav_primer">Пример</a><a href="#start" data-ev="click_nav_start">Начать</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Приёмка лома</a>
+  <nav><a href="#chto" data-ev="click_nav_chto">Что вы получаете</a><a href="price.html" data-ev="click_nav_cena">Цена</a><a href="#primer" data-ev="click_nav_primer">Пример</a><a href="#start" data-ev="click_nav_start">Начать</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Учёт приёмки лома — акт, журнал, остатки и выплата сдатчику без бумажной путаницы</h1>
-    <p class="sub">Для пунктов и площадок приёма лома чёрных и цветных металлов: весовщик оформляет приёмо-сдаточный акт за минуту, журнал учёта и остатки ведутся сами, а сдатчику-физлицу можно выплатить деньги безналично, а не только из кассы.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Мне это нужно</a>
-    <p class="cta-note">Сервис в подготовке · Оплата на этой странице не принимается</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Для пунктов и площадок приёма</p>
+      <h1 class="rise" style="--i:1" data-len="long">Учёт приёмки лома&nbsp;<span class="soft">— акт, журнал, остатки и выплата сдатчику без бумажной путаницы</span></h1>
+      <p class="rise" style="--i:2">Для пунктов и площадок приёма лома чёрных и цветных металлов: весовщик оформляет приёмо-сдаточный акт за минуту, журнал учёта и остатки ведутся сами, а сдатчику-физлицу можно выплатить деньги безналично, а не только из кассы.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Мне это нужно</a>
+      <p class="meta rise" style="--i:4">Сервис в подготовке · Оплата на этой странице не принимается</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="130" y="168" font-size="40" font-weight="600" fill="#0a1524">Приёмка</text><line x1="120" y1="220" x2="1080" y2="220" fill="none" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="270" width="44" height="44" rx="8" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><text x="200" y="302" font-size="32" fill="#566174">Журнал</text><rect x="130" y="360" width="44" height="44" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="200" y="370" width="240" height="22" rx="8" fill="#b9c3d2" /><rect x="130" y="450" width="44" height="44" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="200" y="460" width="360" height="22" rx="8" fill="#dde2ea" /><rect x="130" y="540" width="44" height="44" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="200" y="550" width="200" height="22" rx="8" fill="#dfe8f7" /><rect x="700" y="270" width="370" height="390" rx="20" fill="#dfe8f7" /><text x="730" y="340" font-size="34" font-weight="600" fill="#0a1524">Остатки</text><rect x="740" y="500" width="46" height="120" rx="8" fill="#ffffff" stroke="#b9c3d2" stroke-width="3" /><rect x="820" y="400" width="46" height="220" rx="8" fill="#12397a" stroke="#b9c3d2" stroke-width="3" /><rect x="900" y="460" width="46" height="160" rx="8" fill="#ffffff" stroke="#b9c3d2" stroke-width="3" /><rect x="980" y="530" width="46" height="90" rx="8" fill="#ffffff" stroke="#b9c3d2" stroke-width="3" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Для</dt><dd>Пунктов и площадок приёма</dd></div>
+      <div><dt>Акт</dt><dd>Приёмо-сдаточный акт за минуту</dd></div>
+      <div><dt>Журнал</dt><dd>Журнал учёта и остатки</dd></div>
+      <div><dt>Пока</dt><dd>Сейчас сервис в подготовке</dd></div>
+    </dl>
+  </section>
 
   <section id="chto" data-view="features_view">
-    <h2>Что вы получаете</h2>
-    <div class="grid">
-      <div class="card"><b>Приёмо-сдаточный акт</b><span>Акт на каждую сдачу: сдатчик, документ, вид лома, вес, засор, сумма.</span><br><a class="btn" href="price.html" data-ev="feature_psa">Мне это нужно</a></div>
-      <div class="card"><b>Журнал учёта</b><span>Журнал приёма лома заполняется из актов, без ручной переписки.</span><br><a class="btn" href="price.html" data-ev="feature_zhurnal">Мне это нужно</a></div>
-      <div class="card"><b>Остатки и касса</b><span>Остатки по видам лома на площадке и движение денег по кассе.</span><br><a class="btn" href="price.html" data-ev="feature_ostatki">Мне это нужно</a></div>
-      <div class="card"><b>Безналичная выплата</b><span>Выплата сдатчику-физлицу на карту по акту, вместо наличных из кассы.</span><br><a class="btn" href="price.html" data-ev="feature_vyplata">Мне это нужно</a></div>
+    <div class="stack"><h2>Что вы получаете</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="160" y="60" width="480" height="480" rx="18" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="200" y="140" font-size="34" font-weight="600" fill="#0a1524">акт</text><rect x="200" y="190" width="360" height="20" rx="8" fill="#dde2ea" /><rect x="200" y="240" width="300" height="20" rx="8" fill="#b9c3d2" /><rect x="200" y="290" width="380" height="20" rx="8" fill="#dde2ea" /><rect x="200" y="340" width="240" height="20" rx="8" fill="#dfe8f7" /><circle cx="520" cy="450" r="42" fill="#dfe8f7" stroke="#12397a" stroke-width="4" /><polyline points="500,444 512,458 532,434" fill="none" stroke="#12397a" stroke-width="6" /></svg></div>
+        <h3>Приёмо-сдаточный акт</h3><p>Акт на каждую сдачу: сдатчик, документ, вид лома, вес, засор, сумма.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_psa">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="34" font-weight="600" fill="#0a1524">Журнал учёта</text><rect x="130" y="230" width="48" height="48" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="210" y="242" width="340" height="24" rx="8" fill="#dde2ea" /><rect x="130" y="330" width="48" height="48" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="210" y="342" width="290" height="24" rx="8" fill="#dde2ea" /><rect x="130" y="430" width="48" height="48" rx="10" fill="#12397a" stroke="#dde2ea" stroke-width="3" /><polyline points="140,456 150,466 168,444" fill="none" stroke="#ffffff" stroke-width="6" /><rect x="210" y="442" width="240" height="24" rx="8" fill="#b9c3d2" /></svg></div>
+        <h3>Журнал учёта</h3><p>Журнал приёма лома заполняется из актов, без ручной переписки.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_zhurnal">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="34" font-weight="600" fill="#0a1524">Остатки</text><line x1="140" y1="470" x2="660" y2="470" fill="none" stroke="#b9c3d2" stroke-width="4" /><rect x="170" y="380" width="70" height="90" rx="8" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="290" y="290" width="70" height="180" rx="8" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="410" y="340" width="70" height="130" rx="8" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="530" y="230" width="70" height="240" rx="8" fill="#12397a" stroke="#dde2ea" stroke-width="3" /></svg></div>
+        <h3>Остатки и касса</h3><p>Остатки по видам лома на площадке и движение денег по кассе.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_ostatki">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="160" font-size="34" font-weight="600" fill="#0a1524">выплата</text><line x1="140" y1="300" x2="660" y2="300" fill="none" stroke="#dde2ea" stroke-width="6" /><rect x="150" y="260" width="130" height="80" rx="28" fill="#ffffff" stroke="#12397a" stroke-width="4" /><rect x="310" y="260" width="130" height="80" rx="28" fill="#12397a" stroke="#12397a" stroke-width="4" /><rect x="470" y="260" width="130" height="80" rx="28" fill="#ffffff" stroke="#12397a" stroke-width="4" /><rect x="150" y="400" width="420" height="28" rx="8" fill="#dde2ea" /><rect x="150" y="450" width="280" height="28" rx="8" fill="#b9c3d2" /></svg></div>
+        <h3>Безналичная выплата</h3><p>Выплата сдатчику-физлицу на карту по акту, вместо наличных из кассы.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_vyplata">Мне это нужно</a>
+      </article>
     </div>
   </section>
 
-  <section id="primer" data-view="example_view">
-    <h2>Пример (вымышленные данные)</h2>
-    <p class="fine">Площадка приёма лома на окраине города, два весовщика, 70 сдач в день. Весовщик выбирает сдатчика по паспорту, вводит вес брутто и тару, засор, и акт готов; сдатчик получает деньги на карту. Вечером владелец видит в телефоне остатки чёрного и цветного лома, кассу и журнал за день.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Выбрать тариф</a>
+  <section id="primer" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Пример</h2>
+      <p>Площадка приёма лома на окраине города, два весовщика, 70 сдач в день. Весовщик выбирает сдатчика по паспорту, вводит вес брутто и тару, засор, и акт готов; сдатчик получает деньги на карту. Вечером владелец видит в телефоне остатки чёрного и цветного лома, кассу и журнал за день.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Выбрать тариф</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="240" y1="160" x2="960" y2="160" fill="none" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="240" font-size="32" font-weight="600" text-anchor="middle" fill="#0a1524">Весовщик</text><circle cx="600" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="240" font-size="32" font-weight="600" text-anchor="middle" fill="#0a1524">акт</text><circle cx="960" cy="160" r="22" fill="#12397a" stroke="#12397a" stroke-width="6" /><text x="960" y="240" font-size="32" font-weight="600" text-anchor="middle" fill="#0a1524">журнал</text><rect x="120" y="320" width="960" height="400" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="170" y="400" font-size="36" font-weight="600" fill="#0a1524">остатки</text><rect x="170" y="460" width="64" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="260" y="460" width="64" height="64" rx="10" fill="#12397a" stroke="#dde2ea" stroke-width="3" /><rect x="350" y="460" width="64" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="440" y="460" width="64" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="530" y="460" width="64" height="64" rx="10" fill="#12397a" stroke="#dde2ea" stroke-width="3" /><rect x="620" y="460" width="64" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="710" y="460" width="64" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="170" y="580" width="520" height="24" rx="8" fill="#dde2ea" /><rect x="170" y="630" width="340" height="24" rx="8" fill="#b9c3d2" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Как это работает</h2>
-    <p>Пункт приёма лома каждый день оформляет десятки сдач: на каждую нужен приёмо-сдаточный акт с данными сдатчика, видом и весом лома, засором и суммой, а все акты должны попасть в журнал учёта. Во многих пунктах это до сих пор бумага, тетрадь и таблица, которую вечером сводит владелец.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Как это работает</h2></div>
+    <div class="stack">
+      <p>Пункт приёма лома каждый день оформляет десятки сдач: на каждую нужен приёмо-сдаточный акт с данными сдатчика, видом и весом лома, засором и суммой, а все акты должны попасть в журнал учёта. Во многих пунктах это до сих пор бумага, тетрадь и таблица, которую вечером сводит владелец.</p>
     <p>Бумажный учёт подводит в самый неудобный момент: акт заполнен неразборчиво, в журнале пропущена сдача, остатки на площадке не сходятся с тем, что покупает переработчик, а касса — с суммой актов. При проверке приходится восстанавливать картину по обрывкам, а наличные из кассы требуют отдельного учёта.</p>
     <p>Сервис ведёт приёмку с первого шага. Весовщик выбирает сдатчика — по паспорту или из списка постоянных, вводит вид лома, вес брутто и тару, засор, и программа сама считает вес нетто и сумму по прайсу площадки. Приёмо-сдаточный акт формируется сразу и печатается или отправляется сдатчику.</p>
     <p>Из актов автоматически заполняется журнал учёта приёма лома. Остатки по видам лома на площадке пересчитываются после каждой сдачи и каждой отгрузки переработчику, а касса показывает, сколько денег выдано и сколько осталось. Владелец видит всё это с телефона, даже если не был на площадке.</p>
@@ -103,31 +137,34 @@
     <p>Работает программа в браузере на компьютере или планшете у весов, ничего устанавливать не нужно. Прайс площадки меняется в одном месте и сразу действует для всех весовщиков, а данные можно выгрузить таблицей для бухгалтера.</p>
     <p>Перейти можно за один день: внести прайс, виды лома и весовщиков, перенести список постоянных сдатчиков и с утра оформлять сдачи уже в программе. Бумажные акты за прошлые месяцы остаются в архиве как были.</p>
     <p>Сервис рассчитан на пункты и площадки приёма лома чёрных и цветных металлов, от одной точки до нескольких. Он помогает вести учёт, но не заменяет лицензию и обязанности пункта приёма. Сейчас сервис в подготовке: сначала мы проверяем, нужен ли он пунктам приёма.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Вопросы и ответы</h2>
-    <h3>Что входит в учёт приёмки?</h3>
-    <p>Приёмо-сдаточные акты, журнал учёта приёма лома, остатки по видам лома и касса.</p>
-    <h3>Можно ли платить сдатчику безналично?</h3>
-    <p>Да, на карту по данным из акта; каждая выплата связана со своим актом.</p>
-    <h3>Подходит ли для нескольких площадок?</h3>
-    <p>Да, каждая площадка ведёт свою приёмку, а владелец видит общую картину.</p>
-    <h3>Нужно ли что-то устанавливать?</h3>
-    <p>Нет, программа работает в браузере на компьютере или планшете у весов.</p>
-    <h3>Можно уже пользоваться?</h3>
-    <p>Пока нет. Сервис в подготовке, и мы проверяем, нужен ли он пунктам приёма.</p>
+    <div class="stack"><h2>Вопросы и ответы</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Что входит в учёт приёмки?</h3><p>Приёмо-сдаточные акты, журнал учёта приёма лома, остатки по видам лома и касса.</p></div>
+      <div class="split flip"><h3>Можно ли платить сдатчику безналично?</h3><p>Да, на карту по данным из акта; каждая выплата связана со своим актом.</p></div>
+      <div class="split flip"><h3>Подходит ли для нескольких площадок?</h3><p>Да, каждая площадка ведёт свою приёмку, а владелец видит общую картину.</p></div>
+      <div class="split flip"><h3>Нужно ли что-то устанавливать?</h3><p>Нет, программа работает в браузере на компьютере или планшете у весов.</p></div>
+      <div class="split flip"><h3>Можно уже пользоваться?</h3><p>Пока нет. Сервис в подготовке, и мы проверяем, нужен ли он пунктам приёма.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Добавьте свою площадку</h2>
-    <p><label>Сколько сдач лома в день<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— выберите —</option><option>До 20</option><option>20–80</option><option>80–200</option><option>Больше 200</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Начать</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Добавьте свою площадку</h2>
+    </div>
+    <div class="tile stack">
+      <label>Сколько сдач лома в день<select data-ev-focus="form_start"><option value="">— выберите —</option><option>До 20</option><option>20–80</option><option>80–200</option><option>Больше 200</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Начать</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Приёмка лома</b></p>
   <p>Оператор: ИП Гудев Роман, ИНН 615007167949 &middot; <a href="privacy.html" data-ev="click_legal_privacy">Политика обработки персональных данных</a></p>
-  <p class="muted">Учёт приёмки лома для вашего пункта. Не заменяет лицензию и обязанности пункта приёма.</p>
+  <p>Учёт приёмки лома для вашего пункта. Не заменяет лицензию и обязанности пункта приёма.</p>
 </div></footer>
 
 </body>
